@@ -1,11 +1,11 @@
  
-.direita {
+.direita{
     position: absolute;
     right: 0px;    
 }
 
 .busca_formato{
-    width: 200px;
+    width: 201px;
     margin-right: 150px;
     border-radius: 25px;
     font-size: larger;

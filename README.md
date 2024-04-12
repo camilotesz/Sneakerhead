@@ -21,7 +21,7 @@ enquanto utiliza tecnologia moderna, busca um crescimento sustentável.
 <img loading="lazy" src="https://www.svgrepo.com/show/508794/css3-01.svg" width="60" height="60"/> <img loadinh="lazy" src="https://www.svgrepo.com/show/508837/html5-01.svg" width="60" height="60"/> <img loadinh="lazy" src="https://www.svgrepo.com/show/94397/java-script-logo.svg" width="60" height="60"/>
 
 ## Integrantes
-|  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/166080067?v=4" width=115><br><sub>Gabriel Camilo</sub>](https://github.com/camilotesz) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/142221480?v=4" width=115><br><sub>Bruno de Oliveira</sub>](https://github.com/BrunoLgN) | [<img loading="lazy" src=" " width=115><br><sub>Arthur</sub>](https://github.com/ )
+|  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/166080067?v=4" width=115><br><sub>Gabriel Camilo</sub>](https://github.com/camilotesz) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/142221480?v=4" width=115><br><sub>Bruno de Oliveira</sub>](https://github.com/BrunoLgN) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/118126589?v=4" width=115><br><sub>Arthur</sub>](https://github.com/XundaBoy)
 | :---: | :---: | :---: |
 
 

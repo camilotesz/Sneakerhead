@@ -1,0 +1,40 @@
+
+.busca_formato{
+   width: 201px;
+   margin-right: 150px;
+   border-radius: 25px;
+   font-size: larger;
+  
+}
+.fav_formato{
+   margin-right: 100px;
+   font-size: 26px; 
+   border-radius: 17px;
+  
+}
+
+ .BotaoSneaker
+ {
+   margin-top: 10px;
+    margin-left: 100px
+
+ }
+
+ .direita
+ {
+    position: absolute;
+    right: 0px;
+   
+ }
+.titulo
+{
+   margin-left: 80px;
+}
+
+ .left
+ {
+    text-align:left;
+ }
+ 
+
+ 

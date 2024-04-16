@@ -1,50 +1,69 @@
- 
-.direita{
-    position: absolute;
-    right: 0px;    
+body{
+    margin: 2%;
+}
+
+h5{
+    font-family: 'Merryweather';
+    font-weight: bold;
+}
+.containersup{
+    display: flex;
+    gap:10px;
+    margin-bottom: 40px;
+    padding: 0%;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.espaco{
+    flex-grow: 2; 
+}
+
+.containerbanner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    gap: 30px;
 }
 
 .busca_formato{
-    width: 201px;
-    margin-right: 150px;
     border-radius: 25px;
-    font-size: larger;
-   
+    font-size: large; 
 }
 
 .fav_formato{
-    margin-right: 100px;
-    font-size: 26px; 
+    font-size: 22px; 
     border-radius: 17px;
-}
-
-.div_superior{
-    word-spacing: 10px;
-    margin-top: 30px;
-    margin-left: 100px;
-    
+    border-style: none;
+    background: none;
 }
 
 .banner{
-    margin-left: 100px;
-    width: 1350px;
+    width: 1300px;
     height: 200px;
-    margin-right: 100px;
-    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgb(100, 2, 2);
 }
 
 .bannerB{
   text-align: center;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
-.btnMP{
-    margin-top: 50px;
-}
 
 .mp{
     width: 250px;
-    margin-left: 108px;  
-    margin-top: 10px; 
+    height: 180px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px black;
 }
 
+.container{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap')

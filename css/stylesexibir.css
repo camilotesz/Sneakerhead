@@ -7,12 +7,12 @@
   
 }
 .fav_formato{
-   margin-right: 100px;
-   font-size: 26px; 
+   font-size: 22px; 
    border-radius: 17px;
-  
+   border-style: none;
+   background: none;
+   margin-right: 100px;
 }
-
  .BotaoSneaker
  {
    margin-top: 10px;
@@ -37,4 +37,14 @@
  }
  
 
- 
+ p, h1, h2, h3, h4{
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ h5{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+ }
+
+ img{
+   border-radius: 3%;
+ }

@@ -1,26 +1,29 @@
 h5, h3, h4{
-    font-family: 'Merryweather';
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
 p{
-    font-family: 'Merryweather';
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
+.containersup{
     display: flex;
-    gap:10px;
+    gap: 1.4rem;
+    margin-bottom: 40px;
     padding: 0%;
-    align-items: center;
-    
+    align-items: center; 
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .espaco{
-    flex-grow: 2; 
+    flex-grow: 1; 
 }
 
 body{
     margin: 2%;
+    font-family: Arial;
 }
 
 .busca_formato{
@@ -29,10 +32,7 @@ body{
 }
 
 .fav_formato{
-    font-size: 22px; 
-    border-radius: 17px;
-    border-style: none;
-    background: none;
+    color: black;
 }
 
 .container2{
@@ -41,21 +41,20 @@ body{
     margin: 3%;
     gap: 100px;
     flex-wrap: wrap;
-    justify-content: center;
-    
-    
+    justify-content: center;  
 }
 
 img{
     width: 250px;
     height: 180.46px;
-    box-shadow: 5px 5px 7px black;
+    box-shadow: 2px 2px 7px rgb(139, 139, 139);
     border-radius: 5px;
 }
 
 
 .txt{
     text-align: center;
+    margin-top: 5px;
 }
 
 .container3{
@@ -66,6 +65,13 @@ img{
     flex-wrap: wrap;
     justify-content: center;  
 }
+
+.links{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+}
+
 
 
 

@@ -1,0 +1,65 @@
+body{
+    margin: 2%;
+    font-family: Arial;
+    
+}
+
+.containersup{
+    display: flex;
+    gap: 1.4rem;
+    margin-bottom: 40px;
+    padding: 0%;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.espaco{
+    flex-grow: 1; 
+}
+
+.busca_formato{
+    border-radius: 25px;
+    font-size: large; 
+}
+
+.fav_formato{
+    color: black;
+}
+
+
+h5{
+    font-weight: bold;
+}
+
+.links{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+}
+
+.ofertas-paragrafo{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 5%;
+    margin-bottom: 0
+}
+
+.barra{
+    width: 1474px;
+    height: 40px;
+    background-color: #D9D9D9;
+}
+
+.container-inferior{
+   display: flex;
+    gap: 10px;
+}
+
+
+.mp{
+    width: 250px;
+    height: 180px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgb(139, 139, 139);
+    
+}

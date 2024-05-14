@@ -16,8 +16,9 @@
     <!--Framework do google-->
 
  
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Freeman&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
 
   </head>
   <body>
@@ -51,8 +52,27 @@
 
      
     <div class="containerbanner">
-      <div>
-      <img src="/Imagens/farf.png" alt="banner" class="banner">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/Imagens/novidade01.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/Imagens/novidade02.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/Imagens/1.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       </div>
         <h5 class="maisPopulares">Mais Populares</h5>
       </div>
@@ -85,6 +105,7 @@
       <button type="button">Ver mais</button>
       </a>
     </p>
+    
 
 
     <!--Framework bootstrap JS-->

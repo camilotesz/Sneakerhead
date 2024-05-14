@@ -1,11 +1,11 @@
-h5, h3, h4{
-    font-family: Arial, Helvetica, sans-serif;
+
+
+h5, h3{
+    color: #fc4100;
     font-weight: bold;
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 
 .containersup{
     display: flex;
@@ -23,7 +23,7 @@ p{
 
 body{
     margin: 2%;
-    font-family: Arial;
+    font-family: 'Rubik';
 }
 
 .busca_formato{
@@ -35,21 +35,37 @@ body{
     color: black;
 }
 
+
 .container2{
+    display: grid;
+    grid-template-columns: 260px 260px 260px 260px 260px;
+    justify-content: center;
+}
+
+
+/*.container2{
     display: flex;
     padding: 0%;
     margin: 3%;
-    gap: 100px;
+    gap: 10px;
     flex-wrap: wrap;
-    justify-content: center;  
-}
+    
+}*/
 
 img{
     width: 250px;
     height: 180.46px;
-    box-shadow: 2px 2px 7px rgb(139, 139, 139);
     border-radius: 5px;
 }
+
+.links{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+    
+}
+
 
 
 .txt{
@@ -57,14 +73,19 @@ img{
     margin-top: 5px;
 }
 
-.container3{
+.txt2{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+/*.container3{
     display: flex;
     padding: 0%;
     margin: 3%;
-    gap: 100px;
+    gap: 10px;
     flex-wrap: wrap;
-    justify-content: center;  
-}
+    justify-content: center;
+}*/
 
 .links{
     text-decoration: none;
@@ -72,8 +93,15 @@ img{
     color: black;
 }
 
+.faixa{
+    background-color: rgb(251, 226, 246);
+    
+    height: 520px;
+    width: 1458px;
+    text-align: start
+}
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 

@@ -1,6 +1,7 @@
 body{
     margin: 2%;
-    font-family: Arial;
+    font-family: 'Rubik';
+    background-color: white;
     
 }
 
@@ -8,21 +9,25 @@ button{
     cursor: pointer;
     font-size: 14px;
     color: white;
-    background-color: black;
+    background-color: #fc4100;
     border-radius: 8px;
     padding: 8px 40px;
     margin-top: 10px;
-    border: none;
+    border: 2px solid black;
 }  
 
 h5{
     font-weight: bolder;
+    color: #fc4100;
 }
 
 
 .maisPopulares{
     font-weight: bold;
     font-size: 30px;
+    margin-top: 20px;
+    color: #fc4100;
+    text-align: center;
 }
 
 
@@ -46,7 +51,7 @@ h5{
     justify-content: center;
     align-items: center;   
     gap: 40px;
-    
+
 }
 
 .busca_formato{
@@ -55,15 +60,16 @@ h5{
 }
 
 .fav_formato{
-    color: black;
+   color: black;
    
 }
     
 
+
 .banner{
-    height: 11.25rem;
+    height: 12.25rem;
     border-radius: 0.313rem;
-    box-shadow: 0.125rem 0.12rem 0.43rem rgb(139, 139, 139);
+    box-shadow: 0.5rem 0.1rem 0.43rem #fc4100;
 }
 
 .bannerB{
@@ -73,10 +79,11 @@ h5{
 
 
 .mp{
-    width: 250px;
-    height: 180px;
+    
+    height: 200px;
     border-radius: 5px;
-    box-shadow: 2px 2px 7px rgb(139, 139, 139);
+    border-style: outset;
+    color: lightgrey;
     
 }
 
@@ -90,6 +97,9 @@ h5{
 .links{
     text-decoration: none;
     font-size: 1.1em;
+    font-weight: bold;
     color: black;
+    
 }
+
 

@@ -63,3 +63,24 @@ h5{
     box-shadow: 2px 2px 7px rgb(139, 139, 139);
     
 }
+.precoAntigo{
+    text-decoration: line-through;
+}
+.precos{
+    display: flex;
+    gap: 2rem;
+}
+
+.Separacard
+{
+    display:flex;
+    flex-direction: row;
+    
+    gap: 7rem;
+}
+
+.estiloCard
+{
+    display: flex;
+    flex-direction: column;
+}

@@ -28,9 +28,13 @@
         <div class="espaco">
           <a href="/html/ofertas.html" class="links">Ofertas</a>
         </div>
-       
+       <div><button onclick="
+        window.location.reload();
+       ">Limpar Busca</button></div>
         <div>
-          <input class="busca_formato" type="text" id="txtBusca" placeholder="  Buscar" />
+          <input class="busca_formato" type="text" id="txtBusca" placeholder="  Buscar" onkeyup="
+            filtro('nike')
+            filtro('adidas')"/>
         </div>
         <div>
           <a href="" class="fav_formato">
@@ -50,44 +54,44 @@
 
    
     <div class="container2">
-        <div class="itemc">
+        <div class="itema adidas">
             <img src="/Imagens/adidas_branco.png" alt="">
             <h5 class="txt">Korn x Adidas</h5>
             <p class="txt">Adidas Campus 00s</p>
             
         </div>
-        <div class="itemc">
+        <div class="itema adidas">
             <img src="/Imagens/ez_branco.png" alt="">
             <h5 class="txt">Adidas</h5>
             <p class="txt">Yeezy 700 V2</p>
         </div>
-        <div class="itemc">
+        <div class="itemn nike">
             <img src="/Imagens/chigago_br.png" alt="">
             <h5 class="txt">Jordan</h5>
             <p class="txt">Air Jordan 1 mid - chicago</p>
         </div>
-        <div class="itemc">
-            <img src="/Imagens/travisdunk-br.png" alt="">
+        <div class="itemn nike">
+            <img src="/Imagens/travisdunk-br.png" alt="" >
             <h5 class="txt">Nike</h5>
             <p class="txt">Travis Scott x Dunk Low Cactus Jack</p>
         </div>
-        <div class="itemc">
+        <div class="itemn nike">
             <img src="/Imagens/jbalvin_jordan.png" alt="">
             <h5 class="txt">Nike x Jbalvin</h5>
             <p class="txt">Air Jordan 1 retro</p>
         </div>
-        <div class="itemc">
+        <div class="itemn nike">
             <img src="/Imagens/jordan3.png" alt="">
             <h5 class="txt">Jordan</h5>
             <p class="txt">Jordan 4 Retro
                 Eminem Carhartt</p>
         </div>
-        <div class="itemc">
+        <div class="itemb balenciaga">
             <img src="/Imagens/balenciaga_br.png" alt="">
             <h5 class="txt">Balenciaga</h5>
             <p class="txt">Speed LT</p>
         </div>
-        <div class="itemc">
+        <div class="itemn nike">
             <img src="/Imagens/rayssa_bra.png" alt="">
             <h5 class="txt">Nike</h5>
             <p class="txt">Dunk Low Sb Rayssa Leal</p>
@@ -102,7 +106,7 @@
     
         
         
-    
+    <script src="/script.js"></script>
 
 </body>
 </html>

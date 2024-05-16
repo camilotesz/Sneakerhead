@@ -29,3 +29,12 @@
 
     gap: 10px;
 }
+.footer{
+    margin-top: 5rem;
+    background-color: rgb(172, 172, 172);
+    color: black;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}

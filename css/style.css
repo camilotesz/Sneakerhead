@@ -101,5 +101,11 @@ h5{
     color: black;
     
 }
+.footer{
+    margin-top: 5rem;
+    background-color: rgb(172, 172, 172);
+    color: black;
+    text-align: center;
+}
 
 

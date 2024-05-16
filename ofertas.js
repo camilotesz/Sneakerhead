@@ -9,7 +9,10 @@ function Produto(imagem,nome,precoAntigo,precoNovo,descricao,avaliacao,linkSite)
     this.linkSite=linkSite
 }
 
-let produto = new Produto("/Imagens/chigago_br.png","AirJordan1","R$5,000","4,200","Primeiro Tenis da Franquia AIR JORDAN, iconico pela historia e polemicas sobre cores.","4.3","https://www.nike.com.br/?msclkid=bc1ac8bbcb8e14fd3fe4ae810ad81703")
+let produto1 = new Produto("/Imagens/chigago_br.png","AirJordan1","R$5,000","4,200","Primeiro Tenis da Franquia AIR JORDAN, iconico pela historia e polemicas sobre cores.","4.3","https://www.nike.com.br/?msclkid=bc1ac8bbcb8e14fd3fe4ae810ad81703")
+let produto2 = new Produto("/Imagens/ez_branco.png","Yeezy Branco","R$7,000","6,400","Tenis mais bem sucedido da historia dos 'Yezzy'","4.1","https://www.adidas.com.br/" )
+let produto3 = new Produto("/imagens_travis/travis.png","Travis X Nike","10,800","10,000","Tenis mais sucessido do colab TRAVIS X NIKE","4.7","https://www.nike.com.br/?msclkid=bc1ac8bbcb8e14fd3fe4ae810ad81703")
+
 
 function criarCard(card)
 {
@@ -67,19 +70,18 @@ function criarCard(card)
     
 }
 
+const arrayListaPdt = [produto1,produto2,produto3]
 
 
-    criarCard(produto)
-    criarCard(produto)  
+for (var i = 0; i < arrayListaPdt.length ; i++) {
+    criarCard(arrayListaPdt[i])
+  }
 
-    function listaprod(){
-        const lista = document.createAttribute('ul')
-        main.appendChild(lista)
 
-        const item1 = document.createElement('li')
-        lista.appendChild(item1)
 
-    }
+  
+
+
     
 
 

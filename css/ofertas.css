@@ -28,7 +28,8 @@ body{
 
 
 h5{
-    font-weight: bold;
+    font-weight: bolder;
+    color: #fc4100;
 }
 
 .links{
@@ -67,20 +68,63 @@ h5{
     text-decoration: line-through;
 }
 .precos{
+    border-left: 150px;
     display: flex;
+   
     gap: 2rem;
+    text-align: center;
 }
 
-.Separacard
-{
-    display:flex;
+.SeparaCard{
+    margin-top: 2.5rem;
+    display: flex;
     flex-direction: row;
-    
-    gap: 7rem;
+    gap: 2rem;
+   
 }
-
-.estiloCard
-{
+.EstiloCard{
+    background-color: white;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    border-radius: 10%;
+    white-space: 10rem;
+    
+    
+box-shadow: 10px 10px rgba(169, 169, 169 );
+
+}
+.imagem{
+    align-self: center;
+    border-radius: 15%;
+    width: 380px;
+
+}
+
+
+.footer{
+    margin-top: 5rem;
+    background-color: rgb(172, 172, 172);
+    color: black;
+    text-align: center;
+}
+
+body{
+    color: gray;
+    background-color: rgb(234, 232, 232);
+}
+.precoNovo{
+    background-color: rgb(16, 134, 16);
+    color: bisque;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.links{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+    
 }

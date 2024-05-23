@@ -29,9 +29,15 @@
         <h5>SneakersHead-BR</h5>
       </div>
       
-      <div>
-        <a href="" class="links">Marcas</a>
+      <div class="links">
+         Marcas
       </div>
+      <div id="maca1">
+      <div class="marcas1">MARCA</div>
+      <div class="marcas1">MARCA</div>
+      <div class="marcas1">MARCA</div>
+      <div class="marcas1">MARCA</div>
+    </div>
       <div class="espaco">
         <a href="/html/ofertas.html" class="links">Ofertas</a>
       </div>
@@ -107,12 +113,50 @@
     </p>
     
 
+    <div class="links" id="faq">Perguntas Frequentes (FAQ)</div>
+    <div id="perguntas">
+      <div class="pergunta">Pergunta 1</div>
+      <div class="respota">Resposta 1</div>
 
+      <div class="pergunta">Pergunta 2</div>
+      <div class="respota">Resposta 2</div>
+    </div>
+ 
+  
     <!--Framework bootstrap JS-->
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>window.onload = function() {
+    
+      var faq = document.getElementById("faq");
+      var perguntas = document.getElementById("perguntas");
+      
+      perguntas.style.display = 'none'
+      faq.addEventListener("click", ()=>{
+        if (perguntas.style.display === 'none') {
+            perguntas.style.display = 'block';
+          } else {
+            perguntas.style.display = 'none';
+          }
+      })
+  
+      var pergunta = document.getElementsByClassName('pergunta');
+  
+
+      for (var i = 0; i < pergunta.length; i++) {
+        pergunta[i].addEventListener('click', function() {
+          var frequente = this.nextElementSibling;
+          
+          if (frequente.style.display === 'none') {
+            frequente.style.display = 'block';
+          } else {
+            frequente.style.display = 'none';
+          }
+        });
+      }
+    };</script>
   </body>
   <footer class="footer">
-
     <p>® 2024 Copyright: SneakersHead.co</p>
   </footer>
 </html>

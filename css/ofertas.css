@@ -79,7 +79,8 @@ h5{
     margin-top: 2.5rem;
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    justify-content: space-between;
+    
    
 }
 .EstiloCard{
@@ -91,7 +92,7 @@ h5{
     white-space: 10rem;
     
     
-box-shadow: 10px 10px rgba(169, 169, 169 );
+    box-shadow: 10px 10px rgba(169, 169, 169 );
 
 }
 .imagem{

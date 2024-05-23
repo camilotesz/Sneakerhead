@@ -1,11 +1,11 @@
-body {
+body{
     margin: 2%;
     font-family: 'Rubik';
     background-color: white;
-
+    
 }
 
-button {
+button{
     cursor: pointer;
     font-size: 14px;
     color: white;
@@ -14,15 +14,15 @@ button {
     padding: 8px 40px;
     margin-top: 10px;
     border: 2px solid black;
-}
+}  
 
-h5 {
+h5{
     font-weight: bolder;
     color: #fc4100;
 }
 
 
-.maisPopulares {
+.maisPopulares{
     font-weight: bold;
     font-size: 30px;
     margin-top: 20px;
@@ -31,106 +31,100 @@ h5 {
 }
 
 
-.containersup {
+.containersup{
     display: flex;
     gap: 1.4rem;
     margin-bottom: 40px;
     padding: 0%;
     align-items: center;
-
+    
     margin-left: 5%;
     margin-right: 5%;
 }
-
-.espaco {
-    flex-grow: 1;
+.espaco{
+    flex-grow: 1; 
 }
 
-.containerbanner {
+.containerbanner{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
     gap: 40px;
 
 }
 
-.busca_formato {
+.busca_formato{
     border-radius: 25px;
-    font-size: large;
+    font-size: large; 
 }
 
-.fav_formato {
-    color: black;
-
+.fav_formato{
+   color: black;
+   
 }
+    
 
 
-
-.banner {
+.banner{
     height: 12.25rem;
     border-radius: 0.313rem;
     box-shadow: 0.5rem 0.1rem 0.43rem #fc4100;
 }
 
-.bannerB {
-    text-align: center;
-    margin-top: 1.8rem;
+.bannerB{
+  text-align: center;
+  margin-top: 1.8rem;
 }
 
 
-.mp {
-
+.mp{
+    
     height: 200px;
     border-radius: 5px;
     border-style: outset;
     color: lightgrey;
-
+    
 }
 
-.container {
+.container{
     display: flex;
     gap: 100px;
     justify-content: center;
     margin-top: 30px;
 }
 
-.links {
-    cursor: pointer;
+.links{
     text-decoration: none;
     font-size: 1.1em;
     font-weight: bold;
     color: black;
-
+    
 }
-
-.footer {
+.footer{
     margin-top: 5rem;
     background-color: rgb(172, 172, 172);
     color: black;
     text-align: center;
     margin-bottom: 0%;
 }
-
-.perguntas {
+.perguntas{
     margin-top: 50px;
     cursor: pointer;
     margin-bottom: 10px;
     color: rebeccapurple;
 }
 
-.frequentes {
-
+.frequentes
+{
     display: none;
     color: green;
 }
-
-.respota {
-    color: green;
+.respota
+{
     display: none;
 }
-
-.pergunta {
-    cursor: pointer;
-    color: blueviolet;
+.pergunta
+{
+    display: none;
 }

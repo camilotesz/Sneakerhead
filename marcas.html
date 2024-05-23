@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .marcas{
+       margin-top: 10rem;
+        display: flex;
+        flex-direction: row;
+       }
+    </style>
+</head>
+<body>
+    <button id="area">MARCAS</button>
+    <div class="marcas">
+        <li>
+            puma
+            adidas
+            desktop
+            nike
+            balenciaga
+        </li>
+    </div>
+
+    <script>
+         let a = document.getElementById('area')
+         a.addEventListener('mouseenter',entrar)
+         a.addEventListener('mouseout', sair)
+
+         let b = document.querySelector('marcas')
+
+
+         function entrar()
+         {
+            a.innerText='entrou'
+            b.appendChild(marcas)
+         }
+         function sair()
+         {
+            a.innerText='saiu'
+         }
+    </script>
+</body>
+</html>
